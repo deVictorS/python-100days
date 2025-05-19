@@ -1,3 +1,4 @@
+#DIA 2: CÁLCULO DE MÉDIA DE NOTAS
 print("\n---CÁLCULO APROVAÇÃO/REPROVAÇÃO---")
 
 nota1 = float(input("\nDIGITE A NOTA DA SUA PRIMEIRA PROVA: "))
