@@ -1,21 +1,21 @@
-# 🐍 100 Dias de Python
+#100 dias de Python
 
-Bem-vindo ao meu repositório do desafio **#100DaysOfCode** com Python!  
+Bem-vindo ao meu repositório do desafio **#100DaysOfCode** com Python.  
 Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafios usando apenas **Python puro**.
 
 ---
 
-## 📅 Progresso Diário
+##Progresso Diário
 
-✅ Dia 1 – [Introdução, entrada de dados e `print`](./dia1/)  
-✅ Dia 2 – [Cálculo de notas e lógica de decisão](./dia2/)  
-⬜ Dia 3 – Em andamento...
+--Dia 1 – [Cálculo de IMC`](./day1.py/)  
+--Dia 2 – [Cálculo de notas e lógica de decisão](./day2.py/)  
+--Dia 3 – Em andamento...
 
 > Atualizo diariamente com novos exercícios, scripts e projetos simples.
 
 ---
 
-## 🧠 Objetivos
+##Objetivos
 
 - Praticar Python todos os dias
 - Desenvolver projetos úteis
@@ -24,17 +24,3 @@ Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafi
 
 ---
 
-## 🛠️ Tecnologias
-
-- Python 3.11+
-- VSCode
-- Git e GitHub
-
----
-
-## 📌 Como usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/deVictorS/python-100days.git
-   cd python-100days
