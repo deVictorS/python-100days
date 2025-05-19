@@ -7,8 +7,8 @@ Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafi
 
 ##Progresso Diário
 
---Dia 1 – [Cálculo de IMC`](./day1.py/)  
---Dia 2 – [Cálculo de notas e lógica de decisão](./day2.py/)  
+--Dia 1 – Cálculo de IMC
+--Dia 2 – Cálculo de notas  
 --Dia 3 – Em andamento...
 
 > Atualizo diariamente com novos exercícios, scripts e projetos simples.
