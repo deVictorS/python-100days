@@ -1,4 +1,4 @@
-#100 dias de Python
+##100 dias de Python
 
 Bem-vindo ao meu repositório do desafio **#100DaysOfCode** com Python.  
 Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafios usando apenas **Python puro**.
@@ -7,9 +7,9 @@ Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafi
 
 ##Progresso Diário
 
---Dia 1 – Cálculo de IMC
---Dia 2 – Cálculo de notas  
---Dia 3 – Em andamento...
+--Dia 1: Cálculo de IMC
+--Dia 2: Cálculo de notas  
+--Dia 3: Em andamento...
 
 > Atualizo diariamente com novos exercícios, scripts e projetos simples.
 
