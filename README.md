@@ -11,7 +11,9 @@ Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafi
 
 --Dia 2: Cálculo de notas 
 
---Dia 3: Em andamento...
+--Dia 3: Lista de tarefas
+
+--Dia 4: Em andamento...
 
 > Atualizo diariamente com novos exercícios, scripts e projetos simples.
 
