@@ -13,7 +13,9 @@ Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafi
 
 --Dia 3: Lista de tarefas
 
---Dia 4: Em andamento...
+--Dia 4: Lista de nomes
+
+--Dia5: Em andamento. . .
 
 > Atualizo diariamente com novos exercícios, scripts e projetos simples.
 
