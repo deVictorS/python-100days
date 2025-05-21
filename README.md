@@ -1,7 +1,9 @@
+<div align="center">
 ## 100 dias de Python
 
 Bem-vindo ao meu repositório do desafio **#100DaysOfCode** com Python.  
 Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafios usando apenas **Python puro**.
+</div>
 
 ---
 
