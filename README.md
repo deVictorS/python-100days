@@ -18,7 +18,9 @@ Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafi
 
 --Dia 4: Lista de nomes
 
---Dia5: Em andamento. . .
+--Dia5: Dicionário de produtos
+
+--Dia6: Em andamento . . .
 
 > Atualizo diariamente com novos exercícios, scripts e projetos simples.
 
