@@ -1,39 +1,32 @@
 <div align="center">
   
-## 100 dias de Python
+## 100 Days of Python
 
-Bem-vindo ao meu repositório do desafio **#100DaysOfCode** com Python.  
-Aqui, estou documentando minha jornada diária de aprendizado, projetos e desafios usando apenas **Python puro**.
+Welcome to my repository for the **#100DaysOfCode** challenge with Python.  
+Here, I'm documenting my daily journey of learning, projects, and challenges using only **pure Python**.
 </div>
 
 ---
 
-## Progresso Diário
+## Daily Progress
 
---Dia 1: Cálculo de IMC
+- Day 1: BMI Calculator  
+- Day 2: Grade Calculator  
+- Day 3: To-Do List  
+- Day 4: Name List  
+- Day 5: Product Dictionary  
+- Day 6: People Registration in File  
+- Day 7: In progress . . .
 
---Dia 2: Cálculo de notas 
-
---Dia 3: Lista de tarefas
-
---Dia 4: Lista de nomes
-
---Dia 5: Dicionário de produtos
-
---Dia 6: Cadastro de pessoas em arquivo.
-
---Dia 7: Em andamento . . .
-
-> Atualizo diariamente com novos exercícios, scripts e projetos simples.
+> I update it daily with new exercises, scripts, and simple projects.
 
 ---
 
-## Objetivos
+## Goals
 
-- Praticar Python todos os dias
-- Desenvolver projetos úteis
-- Aprender conceitos fundamentais e avançados da linguagem
-- Criar um portfólio prático para minha carreira em TI
+- Practice Python every day  
+- Develop useful projects  
+- Learn both fundamental and advanced concepts of the language  
+- Build a practical portfolio for my IT career
 
 ---
-
