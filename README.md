@@ -16,8 +16,9 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 4: Name List  
 - Day 5: Product Dictionary  
 - Day 6: People Registration in File  
-- Day 7: In progress . . .
-
+- Day 7: Book Dictionary
+- Day 8: Users w/CRUD
+- Day 9: In progress. . .
 > I update it daily with new exercises, scripts, and simple projects.
 
 ---
