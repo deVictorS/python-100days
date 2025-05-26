@@ -1,6 +1,6 @@
 #DIA 2: CÁLCULO DE MÉDIA DE NOTAS
 
-print("\n---CÁLCULO APROVAÇÃO/REPROVAÇÃO---") #PRINT DO OBJETIVO DO PROGRAMA
+print("\n---CÁLCULO APROVAÇÃO/REPROVAÇÃO---")
 
 #SOLICITA OS DADOS AO USUÁRIO E OS ARMAZENA EM VARIÁVEIS DO TIPO FLOAT
 nota1 = float(input("\nDIGITE A NOTA DA SUA PRIMEIRA PROVA: "))
@@ -16,7 +16,7 @@ def calculoNotas(nota1, nota2, nota3):
 #ATRIBUI O VALOR CALCULADO NA FUNÇÃO À VARIÁVEL 
 media_final = calculoNotas(nota1, nota2, nota3)
 
-print("\nSUA MÉDIA FINAL É:", round(media_final, 2)) #PRINTA O CÁLCULO DA MÉDIA COM DUAS CASAS DECIMAIS
+print("\nSUA MÉDIA FINAL É:", round(media_final, 2))
 
 #CUSO DE CONDICIONAIS PARA CLASSIFICAR A MÉDIA
 if media_final >= 6:

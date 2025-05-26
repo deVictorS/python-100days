@@ -1,8 +1,9 @@
 #DIA 3: CRIAÇÃO DE UMA AGENDA DIÁRIA USANDO LISTA
 
-print("\n---AGENDA DIÁRIA---") #PRINT DO OBJETIVO DO PROGRAMA
+print("\n---AGENDA DIÁRIA---")
 
-tarefas = [] #CRIAÇÃO DA LISTA
+#CRIAÇÃO DA LISTA
+tarefas = []
 
 #CRIAÇÃO DE UM MENU USANDO WHILE
 while True:
@@ -10,7 +11,8 @@ while True:
     print("2 - Ver tarefas")
     print("3 - Sair")
 
-    opcao = input("\nEscolha uma opção:") #CRIA A VARIÁVEL OPCAO PARA RECEBER A ESCOLHA DO USUÁRIO
+    #CRIA A VARIÁVEL OPCAO PARA RECEBER A ESCOLHA DO USUÁRIO
+    opcao = input("\nEscolha uma opção:") 
 
     #SE O USUÁRIO ESCOLHE 1: SOLICITA NOVA TAREFA QUE É ARMAZENADA NA LISTA POR MEIO DO .append
     if opcao == "1":
@@ -22,8 +24,8 @@ while True:
     elif opcao == "2":
         if tarefas:
             print("\n---TAREFAS DO DIA---")
-            for i, tarefa in enumerate(tarefas, start=1): #ENUMERA TODAS AS TEREFAS DA LISTA COMEÇANDO PELA PRIMEIRA
-                print(f"{i}. {tarefa}") #PRINTA AS TAREFAS DA LISTA POR MEIO DO FOR (I = O ÍNDICE NA LISTA; TAREFA = TODA A LISTA) MAIÚSCULO
+            for i, tarefa in enumerate(tarefas, start=1):
+                print(f"{i}. {tarefa}") 
         else:
             print("Nenhuma tarefa adicionada ainda") #SE NÃO HÁ TAREFAS
 

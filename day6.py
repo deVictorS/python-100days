@@ -1,6 +1,5 @@
 #CADASTRAR PESSOAS E INSERIR NUMA LISTA .TXT
 
-#PRINT DO OBJETIVO DO CÓDIGO
 print("\n=== CADASTRO DE PESSOAS ===")
 
 #SOLICITA A INSERÇÃO DE ATÉ 3 NOMES
@@ -11,6 +10,7 @@ for i in range(3):
 
 print("\nLista cadastrada com sucesso!") 
 
-with open("day6.txt", 'r', encoding='utf-8') as arquivo: #ABRE O ARQUIVO COM PERMISSÃO DE LEITURA E EXIBE AS PESSOAS CADASTRADAS
+#ABRE O ARQUIVO COM PERMISSÃO DE LEITURA E EXIBE AS PESSOAS CADASTRADAS
+with open("day6.txt", 'r', encoding='utf-8') as arquivo: 
     print("\nLista de pessoas cadastradas: ")
     print(arquivo.read())

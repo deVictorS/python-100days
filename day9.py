@@ -6,13 +6,13 @@ import os
 print("\n=== CADASTRO DE CONTATO ===")
 
 #CADASTRAR CONTATO
-
 class Contato():
     def __init__(self, nome, telefone, email):
         self.nome = nome
         self.telefone = telefone
         self.email = email
     
+    #CRIAÇÃO DO DICIONÁRIO
     def to_dict(self):
         return{
             "nome": self.nome,
@@ -20,6 +20,7 @@ class Contato():
             "email": self.email
         }
 
+#MANIPULAR O ARQUIVOS
 class Agenda():
     def __init__(self, arquivo = 'day9.json'):
         self.arquivo = arquivo
@@ -50,7 +51,6 @@ class Agenda():
                 return
         print("Contato não encontrado")    
 
-
     def removerContato(self):
         remover = input("Digite o nome do contato a ser removido: ").lower()
         contatos_filtrados = [c for c in self.contatos if c['nome'].lower() != remover]
@@ -61,7 +61,6 @@ class Agenda():
             print("Contato removido com sucesso.")
         else:
             print("Contato não encontrado.")
-
 
     def listarContatos(self):
         for contato in self.contatos:

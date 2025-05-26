@@ -1,6 +1,6 @@
 #CRUD COM CADASTRO DE USUÁRIOS
 
-users = [] #CRIAÇÃO DA LISTA
+users = [] 
 
 #CRIAÇÃO DA FUNÇÃO PARA CADASTAR USUÁRIO E INSERIR OS DADOS NA LISTA
 def cadastrarUser():
@@ -48,7 +48,7 @@ def removerUser():
         print("Usuário não encontrado")        
 
 
-print("\n=== CADASTRO DE USUÁRIOS ===") #OBJETIVO DO PROGRAMA
+print("\n=== CADASTRO DE USUÁRIOS ===")
 
 #CRIAÇÃO DA FUNÇÃO MENU
 def menu():
@@ -63,7 +63,6 @@ def menu():
         opcao = input("Escolha uma opção: ")
 
         #USUÁRIO ESCOLHE UMA OPÇÃO QUE DIRECIONA PARA A DEVIDA FUNÇÃO A SER EXECUTADA
-
         if opcao == "1":
             cadastrarUser()
             

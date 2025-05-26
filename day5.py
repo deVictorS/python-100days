@@ -1,3 +1,5 @@
+#SISTEMA DE ESTOQUECOM DICIONÁRIO
+
 print("\n---SISTEMA DE ESTOQUE---")
 
 produtos = []
@@ -15,20 +17,21 @@ while True:
         preco = float(input("Preço: "))
         qntd = int(input("Quantidade em estoque: "))
 
-        #Criação do dicionário
+        #CRIAÇÃO DO DICIONÁRIO
         produto = {"nome": nome, "preco": preco, "qntd": qntd}
 
-        #Inserção dentro da lista
+        #INSERE DENTRO DA LISTA
         produtos.append(produto)
 
         print("\n---PRODUTO CADASTRADO---")
 
+    #LISTA TODOS OS PRODUTOS
     elif opcao == "2":
         print("\n---LISTA DOS PRODUTOS---")
         for i, p in enumerate(produtos, 1):
             print(f"{i}. {p['nome']} - R$ {p['preco']:.2f} - Estoque: {p['qntd']}")
 
-
+    #PESQUISA POR PRODUTOS
     elif opcao == "3":
         busca = input("Digite o nome do produto: ").lower()
         encontrados = [p for p in produtos if p['nome'].lower() == busca]
