@@ -18,7 +18,7 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 6: People Registration in File  
 - Day 7: Book Dictionary
 - Day 8: Users w/CRUD
-- Day 9: In progress. . .
+- Day 9: Contact list w/JSON
 > I update it daily with new exercises, scripts, and simple projects.
 
 ---
