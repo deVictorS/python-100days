@@ -43,7 +43,49 @@ class Gerenciador():
         with open(self.arquivo, 'w') as file:
             json.dump(self.tarefa, file, indent = 4)
 
-    def alterarPrioridade():
+    def alterarTarefa(self):
+        for tarefa in self.tarefa:
+            print(f"{tarefa['nomeTarefa']} - {tarefa['descTarefa']} - {tarefa['prioridadeTarefa']} - {tarefa['horarioTarefa']} - {tarefa['statusTarefa']}")
+
+            novoNome = input("Atualize o nome da tarefa ou pressione enter para manter: ")
+            novaDesc = input("Atualize a descrição da tarefa ou pressione enter para manter: ")
+            novaPrioridae = input("Atualize a prioridade da tarefa ou pressione enter para manter: ")
+            novoHorario = input("Atualize o horário da tarefa ou pressione enter para manter: ")
+            novoStatus = input("Atualize o status da tarefa ou pressione enter para manter: ")
+
+            if novoNome:
+                tarefa['nomeTarefa'] = novoNome
+            if novaDesc:
+                tarefa['descTarefa'] = novaDesc
+            if novaPrioridae:
+                tarefa['prioridadeTarefa'] = novaPrioridae
+            if novoHorario:
+                tarefa['horarioTarefa'] = novoHorario
+            if novoStatus:
+                tarefa['statusTarefa'] = novoStatus
+
+            self.salvarTarefa()
+            print("Tarefa atualizada com sucesso!")
+            return
+        
+    def listarTarefas(self):
+        if not self.tarefa:
+            return print("Nenhuma tarefa na lista")
+
+        for tarefa in self.tarefa:
+            print(f"{tarefa['nomeTarefa']} - {tarefa['descTarefa']} - {tarefa['prioridadeTarefa']} - {tarefa['horarioTarefa']} - {tarefa['statusTarefa']}")
+
+    def removerTarefa(self):
+        remover = input("Digite o nome da tarefa a ser removida: ").lower()
+        tarefas_filtradas = [c for c in self.tarefa if c ['nomeTarefa'].lower() != remover]
+
+        if len(tarefas_filtradas) < len(self.tarefa):
+            self.tarefa = tarefas_filtradas
+            self.salvarTarefa()
+            print("Tarefa removida com sucesso!")
+
+        else:
+            print("Tarefa não encontrada")
         
         
 gerenciador = Gerenciador()
@@ -54,8 +96,8 @@ def menu():
 
     while True:
         print("\n1 - ADICIONAR TAREFAS")
-        print("2 - ALTERAR PRIORIDADE")
-        print("3 - ALTERAR STATUS")
+        print("2 - ALTERAR TAREFA")
+        print("3 - LISTAR TAREFAS")
         print("4 - EXCLUIR TAREFA")
         print("0 - SAIR")
 
@@ -70,9 +112,17 @@ def menu():
             novo = Tarefa(nome, desc, prioridade, horario, status)
             gerenciador.adicionarTarefa(novo)
 
-        if opcao == "3":
+        if opcao == "2":
+            gerenciador.alterarTarefa()
 
-        else:
-            print("\nOpção inválida, tente novamente")
+        if opcao == "3":
+            gerenciador.listarTarefas()
+
+        if opcao == "4":
+            gerenciador.removerTarefa()
+        
+        if opcao == "0":
+            break
+
 
 menu()
