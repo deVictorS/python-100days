@@ -1,0 +1,17 @@
+[
+    {
+        "nomeUser": "victor",
+        "cpfUser": "123",
+        "idadeUser": "1"
+    },
+    {
+        "nomeUser": "victor",
+        "cpfUser": "22",
+        "idadeUser": "123"
+    },
+    {
+        "nomeUser": "leticia",
+        "cpfUser": "321",
+        "idadeUser": "21"
+    }
+]

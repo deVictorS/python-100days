@@ -19,6 +19,9 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 7: Book Dictionary
 - Day 8: Users w/CRUD
 - Day 9: Contact list w/JSON
+- Day 10: CRUD w/JSON, classes and functions
+- Day 11: Data validation
+- Day 12: in progres. . .
 > I update it daily with new exercises, scripts, and simple projects.
 
 ---
