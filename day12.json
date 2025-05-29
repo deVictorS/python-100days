@@ -1,0 +1,18 @@
+[
+    {
+        "equipamento": [
+            "switch",
+            "123",
+            "192",
+            "eng"
+        ]
+    },
+    {
+        "equipamento": [
+            "roteador",
+            "32",
+            "098",
+            "enf"
+        ]
+    }
+]
