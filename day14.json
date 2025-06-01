@@ -1,0 +1,16 @@
+[
+    {
+        "host": "localhost",
+        "portaInicial": "1",
+        "portaFinal": "20",
+        "horaInicio": "2025-06-01 13:35:08.765424",
+        "horaFim": "2025-06-01 13:35:18.932202"
+    },
+    {
+        "host": "localhost",
+        "portaInicial": "1",
+        "portaFinal": "2",
+        "horaInicio": "2025-06-01 13:36:35.673443",
+        "horaFim": "2025-06-01 13:36:36.686169"
+    }
+]
