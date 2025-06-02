@@ -1,0 +1,8 @@
+# Forçar que arquivos .py sejam reconhecidos como Python
+*.py linguist-language=Python
+
+# Ignorar arquivos HTML e TeX da contagem de linguagem
+*.html linguist-detectable=false
+*.htm linguist-detectable=false
+*.tex linguist-detectable=false
+
