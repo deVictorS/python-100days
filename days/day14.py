@@ -1,3 +1,5 @@
+#VARREDURA DE PORTAS
+
 import socket
 from datetime import datetime
 import json
@@ -26,7 +28,7 @@ def caminhoJson(nomeArquivo):
 
 class Scan():
     def __init__(self):
-        self.arquivo = caminhoJson("day14.json")
+        self.arquivo = caminhoJson("json/day14.json")
         self.portas = self.carregarJson()
 
     def carregarJson(self):

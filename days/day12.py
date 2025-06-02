@@ -1,4 +1,5 @@
 #DICIONÁRIO E TUPLAS PARA CADASTRO DE DISPOSITIVOS DE REDE SEM ALTERAÇÃO DE DADOS
+
 import os
 import json
 
@@ -16,7 +17,7 @@ class Equipamento():
     
 class Documento():
 
-    def __init__(self, arquivo = 'day12.json'):
+    def __init__(self, arquivo = 'json/day12.json'):
         self.arquivo = arquivo
         self.equipamento = self.carregarArquivo()
 
@@ -53,8 +54,6 @@ class Documento():
                 if serial_equip == serial:
                     print(f"\nEquipamento encontrado: {id}: {nome} - {serial_equip} - {ip} - {local}")
                     return
-
-
 
 documento = Documento()
 

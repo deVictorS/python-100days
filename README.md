@@ -21,7 +21,12 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 9: Contact list w/JSON
 - Day 10: CRUD w/JSON, classes and functions
 - Day 11: Data validation
-- Day 12: in progres. . .
+- Day 12: Network devices in dicionary and tuplas
+- Day 14: IP calculation
+- Day 15: Exchange rate API
+- Day 16: Hardware monitor
+- Day 17: in progress. . .
+
 > I update it daily with new exercises, scripts, and simple projects.
 
 ---

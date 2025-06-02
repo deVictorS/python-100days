@@ -16,7 +16,7 @@ class User():
         }
     
 class Cadastro():
-    def __init__(self, arquivo = "day11.json"):
+    def __init__(self, arquivo = "json/day11.json"):
         self.arquivo = arquivo
         self.user = self.carregarArquivo() or []
 

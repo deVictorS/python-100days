@@ -21,7 +21,7 @@ class Tarefa():
     }
 
 class Gerenciador():
-    def __init__(self, arquivo = "day10.json"):
+    def __init__(self, arquivo = "json/day10.json"):
         self.arquivo = arquivo
         self.tarefa = self.carregarTarefa()
 
@@ -87,7 +87,6 @@ class Gerenciador():
         else:
             print("Tarefa não encontrada")
         
-        
 gerenciador = Gerenciador()
 
 print("\n=== GERENCIADOR DE TAREFAS ===")
@@ -123,6 +122,4 @@ def menu():
         
         if opcao == "0":
             break
-
-
 menu()
