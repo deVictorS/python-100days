@@ -1,7 +1,12 @@
-# Force GitHub to recognize only Python
+# Ignora qualquer detecção de arquivos classificados como TeX
+*.sty linguist-detectable=false
+*.cls linguist-detectable=false
+*.log linguist-detectable=false
+*.aux linguist-detectable=false
+*.toc linguist-detectable=false
+*.out linguist-detectable=false
+*.html linguist-detectable=false
+
+# Você pode forçar o Linguist a reconhecer somente Python, por exemplo:
 *.py linguist-language=Python
 
-# Ignore LaTeX and BibTeX files from language statistics
-*.tex linguist-detectable=false
-*.html linguist-detectable=false
-latex/* linguist-detectable=false
