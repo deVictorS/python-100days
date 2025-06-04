@@ -2,5 +2,5 @@
 *.py linguist-language=Python
 
 # Ignore LaTeX and BibTeX files from language statistics
-*.tex linguist-vendored
-*.bib linguist-vendored
+*.tex linguist-detectable=false
+*.html linguist-detectable=false
