@@ -12,28 +12,28 @@ LOG_FILE = "logs/day16.txt"
 LIMITE_CPU = 90
 LIMITE_MEMORIA = 80
 
-def registrar_log(mensagem):
+def registrarLog(mensagem):
     with open(LOG_FILE, 'a') as log:
         log.write(f"[{datetime.now()}] {mensagem}\n")
 
 def monitorar():
 
-    uso_cpu = psutil.cpu_percent(interval = 1)
-    uso_memoria = psutil.virtual_memory().percent
+    usoCpu = psutil.cpu_percent(interval = 1)
+    usoMemoria = psutil.virtual_memory().percent
 
     alerta = []
 
-    if uso_cpu > LIMITE_CPU:
-        alerta.append(f"ALERTA: CPU EM {uso_cpu}%")
-    if uso_memoria > LIMITE_MEMORIA:
-        alerta.append(f"ALERTA: MEMORIA EM {uso_memoria}%")
+    if usoCpu > LIMITE_CPU:
+        alerta.append(f"ALERTA: CPU EM {usoCpu}%")
+    if usoMemoria > LIMITE_MEMORIA:
+        alerta.append(f"ALERTA: MEMORIA EM {usoMemoria}%")
 
-    log_mensagem = f"CPU: {uso_cpu}% | Memoria: {uso_memoria}%"
+    log_mensagem = f"CPU: {usoCpu}% | Memoria: {usoMemoria}%"
     if alerta:
         log_mensagem += " | " + " | ".join(alerta)
 
     print(log_mensagem)
-    registrar_log(log_mensagem)
+    registrarLog(log_mensagem)
 
 while True:
     monitorar()
