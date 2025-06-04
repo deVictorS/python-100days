@@ -25,7 +25,10 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 14: IP calculation
 - Day 15: Exchange rate API
 - Day 16: Hardware monitor
-- Day 17: in progress. . .
+- Day 17: Process monitor
+- Day 18: Currency Exchange API with save in JSON
+- Day 18: in progress. . .
+
 
 > I update it daily with new exercises, scripts, and simple projects.
 

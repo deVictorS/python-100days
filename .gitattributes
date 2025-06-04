@@ -6,3 +6,7 @@
 *.htm linguist-detectable=false
 *.tex linguist-detectable=false
 
+*.tex linguist-vendored
+*.bib linguist-vendored
+
+
