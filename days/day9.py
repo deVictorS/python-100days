@@ -5,14 +5,12 @@ import os
 
 print("\n=== CADASTRO DE CONTATO ===")
 
-#CADASTRAR CONTATO
 class Contato():
     def __init__(self, nome, telefone, email):
         self.nome = nome
         self.telefone = telefone
         self.email = email
     
-    #CRIAÇÃO DO DICIONÁRIO
     def to_dict(self):
         return{
             "nome": self.nome,
@@ -20,9 +18,8 @@ class Contato():
             "email": self.email
         }
 
-#MANIPULAR O ARQUIVOS
 class Agenda():
-    def __init__(self, arquivo = 'day9.json'):
+    def __init__(self, arquivo = 'json/day9.json'):
         self.arquivo = arquivo
         self.contatos = self.carregarContatos()
 
@@ -90,7 +87,6 @@ class Agenda():
         
 agenda = Agenda()
 
-#MENU
 def menu():
     while True:
         print("\n1 - CADASTRAR CONTATO")

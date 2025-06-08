@@ -2,7 +2,6 @@
 
 users = [] 
 
-#CRIAÇÃO DA FUNÇÃO PARA CADASTAR USUÁRIO E INSERIR OS DADOS NA LISTA
 def cadastrarUser():
     nome = input("\nDigite o nome do usuário: ").strip().upper()
     cpf = input("Digite o CPF do usuário: ").strip().upper()
@@ -14,7 +13,6 @@ def cadastrarUser():
     print("\n=== USUÁRIO CADASTRADO COM SUCESSO ===")
     print(f"\n{user['nome']} - {user['cpf']} - {user['idade']}")
 
-#CRIAÇÃO DA FUNÇÃO PARA LISTAR USUÁRIOS PRESENTES NA LISTA
 def listarUser():
     for i, user in enumerate(users, 1):
         print(f"{i} - {user['nome']} - {user['cpf']} - {user['idade']}")
@@ -22,7 +20,6 @@ def listarUser():
     if not users:
         print("Nenhum usuário cadastrado")
 
-#CRIAÇÃO DA FUNÇÃO PARA BUSCAR USUÁRIO PELO CPF
 def buscarUser():
     busca = input("\nDigite o CPF do usuário: ").strip().upper()
     encontrado = [user for user in users if user['cpf'].upper() == busca]
@@ -34,7 +31,6 @@ def buscarUser():
     else:
         print("Usuário não encontrado")    
 
-#CRIAÇÃO DA FUNÇÃO QUE REMOVE O USUÁRIO DA LISTA
 def removerUser():
     remover = input("Digite o CPF do usuário a ser removido da lista: ").strip().upper()
     removido = [user for user in users if user['cpf'].upper() == remover]
@@ -50,7 +46,6 @@ def removerUser():
 
 print("\n=== CADASTRO DE USUÁRIOS ===")
 
-#CRIAÇÃO DA FUNÇÃO MENU
 def menu():
     while True:
 
@@ -65,15 +60,12 @@ def menu():
         #USUÁRIO ESCOLHE UMA OPÇÃO QUE DIRECIONA PARA A DEVIDA FUNÇÃO A SER EXECUTADA
         if opcao == "1":
             cadastrarUser()
-            
 
         elif opcao == "2":
             listarUser()
-            
 
         elif opcao == "3":
-            buscarUser()
-            
+            buscarUser() 
 
         elif opcao == "4":
             removerUser()

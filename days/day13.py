@@ -1,3 +1,5 @@
+#CÁLCULO DE IP
+
 import json
 import os
 from dataclasses import dataclass, asdict
@@ -19,7 +21,7 @@ class IP():
 
 class Calculo():
 
-    def __init__(self, arquivo="day13.json"):
+    def __init__(self, arquivo="json/day13.json"):
         self.arquivo = arquivo
         self.lista_ip = self.carregarJson()
         self.ip = None
@@ -89,7 +91,6 @@ class Calculo():
             print(f"Total de hosts: {ip['totalHosts']}")
             print(f"Primeiro IP útil: {ip['primeiroIp']}")
             print(f"Último IP útil: {ip['ultimoIp']}")
-
 
 def menu():
     calculo = Calculo()
