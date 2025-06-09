@@ -28,7 +28,12 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 17: Process monitor
 - Day 18: Currency Exchange API with save in JSON
 - Day 19: Login w/HashLib
-- Day 20: in progress . . .
+- Day 20: Networking sniffer
+- Day 21: Encryptded
+- Day 21: Descryptded
+- Day 22: Login page for simulator
+- Day 23: in progress. . .
+
 
 
 > I update it daily with new exercises, scripts, and simple projects.
