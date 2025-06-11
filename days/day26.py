@@ -1,3 +1,5 @@
+#GERAÇÃO DE POSSÍVEIS SENHAS
+
 nomes = []
 sobrenomes = []
 dominios = []

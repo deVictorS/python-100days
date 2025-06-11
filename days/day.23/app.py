@@ -13,7 +13,7 @@ def login():
     user = request.form.get("username")
     senha = request.form.get("password")
 
-    if user == "victor.santos@empresa.com" and senha == "Victor123":
+    if user == "" and senha == "":
         return redirect("/inicio")
     else:
         return "Falha"

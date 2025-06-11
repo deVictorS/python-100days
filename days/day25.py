@@ -1,3 +1,5 @@
+#GERAÇÃO DE POSSÍVEIS USUÁRIOS
+
 nomes = []
 sobrenomes = []
 caracteres = []

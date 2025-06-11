@@ -95,7 +95,7 @@ class Scan:
             print("\n=== MONITORAMENTO INTERROMPIDO ===")
 
     def monitorar_conexoes_ativas(self):
-        print("\n🌐 MONITORANDO CONEXÕES TCP/UDP ATIVAS... Ctrl+C para parar.")
+        print("\nMONITORANDO CONEXÕES TCP/UDP ATIVAS... Ctrl+C para parar.")
         estado_anterior = []
 
         try:
@@ -147,7 +147,7 @@ class Scan:
                 time.sleep(5)
 
         except KeyboardInterrupt:
-            print("\n⛔ Monitoramento encerrado pelo usuário.")
+            print("\nMonitoramento encerrado pelo usuário.")
 
     def salvar_saida_json(self, registros):
         if not os.path.exists(JSON_SAIDA):

