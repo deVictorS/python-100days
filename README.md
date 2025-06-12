@@ -38,7 +38,9 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 26: Passwords generate
 - Day 27: KL
 - Day 28: Troia
-- Day 29: in progress. . .
+- Day 29: DoS
+- Day 30: Monitor w/MatPlotLib
+- Day 31: in progress. . .
 
 
 

