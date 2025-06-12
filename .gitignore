@@ -1,9 +1,9 @@
-# 🐍 Arquivos Python compilados
+#Arquivos Python compilados
 __pycache__/
 *.py[cod]
 *$py.class
 
-# 📦 Virtualenv
+#Virtualenv
 .env/
 .venv/
 env/
@@ -12,7 +12,7 @@ ENV/
 Pipfile.lock
 poetry.lock
 
-# 🛠️ Pastas de build / dist do PyInstaller
+#Pastas de build / dist do PyInstaller
 build/
 dist/
 *.spec
@@ -20,20 +20,16 @@ dist/
 *.pyz
 *.toc
 *.zip
-*.html
-*.txt
 
-# 🔒 Chaves e arquivos sensíveis
+#Chaves e arquivos sensíveis
 keys/
 *.key
 *.pem
 
-# 📄 Logs e arquivos temporários
-logs/
+#Logs e arquivos temporários
 *.log
 
 # 📊 JSONs de resultado / testes / cache
-*.json
 *.db
 *.sqlite
 *.pkl
