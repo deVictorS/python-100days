@@ -28,7 +28,22 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 17: Process monitor
 - Day 18: Currency Exchange API with save in JSON
 - Day 19: Login w/HashLib
-- Day 20: in progress . . .
+- Day 20: Networking sniffer
+- Day 21: Encryptded
+- Day 21: Descryptded
+- Day 22: Login page for simulator
+- Day 23: Flask, HTML and CSS
+- Day 24: BF
+- Day 25: Users generate
+- Day 26: Passwords generate
+- Day 27: KL
+- Day 28: Troia
+- Day 29: DoS
+- Day 30: Monitor w/MatPlotLib
+- Day 31: in progress. . .
+
+
+
 
 
 > I update it daily with new exercises, scripts, and simple projects.
@@ -41,5 +56,6 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Develop useful projects  
 - Learn both fundamental and advanced concepts of the language  
 - Build a practical portfolio for my IT career
+- Focus in CRUD, CYS, Networking, AI, OS and others modern technolgies.
 
 ---
