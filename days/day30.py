@@ -26,7 +26,7 @@ def persistencia():
 
 def abrir():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bind(('0.0.0.0.', PORTA))
+    s.bind(('0.0.0.0', PORTA))
     s.listen(1)
     
     while True:
