@@ -1,18 +1,21 @@
-#Arquivos Python compilados
+# 📦 Arquivos Python compilados
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 *$py.class
 
-#Virtualenv
-.env/
+# 🐍 Ambientes virtuais
 .venv/
-env/
 venv/
+env/
 ENV/
+.snmp-env/
+.env/
 Pipfile.lock
 poetry.lock
 
-#Pastas de build / dist do PyInstaller
+# 📦 Build / dist / PyInstaller
 build/
 dist/
 *.spec
@@ -21,35 +24,40 @@ dist/
 *.toc
 *.zip
 
-#Chaves e arquivos sensíveis
+# 🔑 Chaves e arquivos sensíveis
 keys/
 *.key
 *.pem
 
-#Logs e arquivos temporários
+# 🗂 Logs e arquivos temporários
 *.log
+*.csv
+logs/
+*.tmp
+*.bak
 
-# 📊 JSONs de resultado / testes / cache
+# 📊 Dados e banco
 *.db
 *.sqlite
 *.pkl
 
-# 🧪 Teste / cobertura
+# 🧪 Testes / cache / cobertura
 coverage/
 .cache/
 .pytest_cache/
 
-# 🧠 VSCode
+# ⚙️ Configs de IDEs
 .vscode/
+.ipynb_checkpoints/
 
 # 🐳 Docker
 Dockerfile
 *.tar
 
-# 💻 Sistema operacional
+# 💻 Arquivos de sistema
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# 🌐 Streamlit cache
+# 🌐 Streamlit
 .streamlit/
