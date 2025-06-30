@@ -41,7 +41,7 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 29: DoS
 - Day 30: Monitor w/MatPlotLib
 - Day 31: SNMP w/ Mikrotik
-- Day 31: in progress. . .
+- Day 32: in progress. . .
 
 
 
