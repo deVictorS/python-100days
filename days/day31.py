@@ -3,7 +3,7 @@ from datetime import datetime
 import time
 
 
-mikrotik_ip = '192.168.88.1'
+mikrotik_ip = ''
 community = 'public'
 oid_uptime = '1.3.6.1.2.1.1.3.0'
 
