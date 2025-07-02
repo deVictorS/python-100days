@@ -10,10 +10,10 @@ __pycache__/
 venv/
 env/
 ENV/
-.snmp-env/
+-.snmp-env/
++.snmp-env/
++snmp-env/
 .env/
-Pipfile.lock
-poetry.lock
 
 # 📦 Build / dist / PyInstaller
 build/

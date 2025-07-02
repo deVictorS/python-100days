@@ -43,6 +43,7 @@ Here, I'm documenting my daily journey of learning, projects, and challenges usi
 - Day 31: SNMP w/ Mikrotik
 - Day 32: Video summary
 - Day 33: Video download from YouTube
+- Day 34: ARP scan
 - Day 34: in progress. . .
 
 
